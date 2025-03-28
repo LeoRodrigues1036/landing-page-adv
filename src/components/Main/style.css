@@ -1,0 +1,132 @@
+main {
+
+    display: flex;
+    flex-direction: column;
+}
+
+main section{
+    padding: 20px;
+}
+main .intro {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../../../public/image/banner-header.jpg');
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+main .intro div{
+    
+}
+
+main .intro h1 {
+    font-size: 32px;
+    margin: 5px;
+    color: white;
+}
+
+main .intro p {
+    font-size: 18px;
+    margin: 20px;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0.8;
+    background-color: antiquewhite;
+
+    
+    
+    
+
+}
+
+main .intro a {
+    background-color: rgb(9, 138, 9);
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 18px;
+    
+}
+
+main .sobre{
+    background-color: #371A16;
+}
+
+main .sobre h2{
+    color: white;
+}
+
+main .sobre .content{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #A1563F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main .sobre .content img{
+    width: 200px;
+}
+
+main .areas-de-atuacao{
+    background-color: #A1563F;
+}
+
+main .areas-de-atuacao h2{
+    color: white;
+}
+
+main .areas-de-atuacao .area{
+    background-color: #371A16;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main .areas-de-atuacao .area h3 {
+    color: white;
+}
+
+main .areas-de-atuacao .area p{
+    color: white;
+}
+
+main .depoimentos{
+    background-color: #371A16;
+}
+
+main .depoimentos h2{
+    color: white;
+}
+
+main .depoimentos p{
+    color: white;
+}
+
+main .depoimentos .depoimento{
+    background-color: #A1563F;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main .informacoes-contato{
+    background-color: #371A16;
+}
+
+main .informacoes-contato h2{
+ color: white;
+}
+
+main .informacoes-contato p{
+    color: white;
+}

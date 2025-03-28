@@ -1,0 +1,37 @@
+.header{
+    border: 1px solid red;
+    display: none;
+    justify-content: space-around;
+    
+}
+
+.header .logo{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.header .nav{
+    border: 1px solid red;
+    
+}
+
+.header .nav ul{
+    display: flex;
+}
+
+.header .nav li{
+    margin: 10px;
+}
+
+.header .cta{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+
+.header .cta a{
+    background-color: blue;
+    margin: 10px;
+}
