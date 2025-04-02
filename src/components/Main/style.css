@@ -8,7 +8,7 @@ main section{
     padding: 20px;
 }
 main .intro {
-    padding-top: 70px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -38,10 +38,6 @@ main .intro p {
     opacity: 0.8;
     background-color: antiquewhite;
 
-    
-    
-    
-
 }
 
 main .intro a {
@@ -50,6 +46,7 @@ main .intro a {
     border-radius: 5px;
     color: aliceblue;
     font-size: 18px;
+    margin: 25px;
     
 }
 
@@ -65,17 +62,30 @@ main .sobre .content{
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
-    color: white;
-    background-color: #A1563F;
+    color:#371A16;
+    background-color:#faebd7;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
+main .sobre .content p{
+    text-align: justify;
+    padding: 10px;
+}
+
 main .sobre .content img{
     width: 200px;
+    background-color: #A1563F;
+    margin: 20px;
+    border-radius: 100%;
 }
+
+main  .content li{
+    padding: 10px;
+}
+
 
 main .areas-de-atuacao{
     background-color: #A1563F;
@@ -94,10 +104,12 @@ main .areas-de-atuacao .area{
 
 main .areas-de-atuacao .area h3 {
     color: white;
+    margin: 10px;
 }
 
 main .areas-de-atuacao .area p{
     color: white;
+    
 }
 
 main .depoimentos{
@@ -129,4 +141,8 @@ main .informacoes-contato h2{
 
 main .informacoes-contato p{
     color: white;
+}
+
+main h2{
+    margin: 20px 0;
 }
